@@ -4,7 +4,7 @@
  * @return {number}
  */
 var robotSim = function (commands, obstacles) {
-  // 时O(n) 空O(1)
+  // 时O(N+K) 空O(K) N=commands.length K=obstacles.length
   let result = 0
   // 0上 1右 2下 3左
   let x = y = direction = 0

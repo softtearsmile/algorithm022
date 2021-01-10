@@ -4,7 +4,7 @@
  * @return {number}
  */
 var findContentChildren = function (g, s) {
-  // 时O(n*m) 空O(1)
+  // 时O(mlogm+nlogn) 空O(logm+logn)
   g.sort((a, b) => a - b)
   s.sort((a, b) => a - b)
   let res = 0

@@ -3,6 +3,7 @@
  * @return {number[][]}
  */
 var permuteUnique = function (nums) {
+    // 时O(n∗n!) 空O(n)
   const res = [];
   const len = nums.length;
   const used = new Array(len);

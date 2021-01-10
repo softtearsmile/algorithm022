@@ -3,7 +3,7 @@
  * @return {number}
  */
 var numIslands = function (grid) {
-  // 时O(n*m) 空O(1)
+  // 时O(MN∗α(MN)) 空O(MN)O(MN) M:行 N:列
 
   if (!grid.length) return 0
   const row = grid.length,
