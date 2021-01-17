@@ -11,7 +11,7 @@
  * @return {TreeNode}
  */
 var buildTree = function (preorder, inorder) {
-    // 时O(n) 空O(1)
+    // 时O(n) 空O(n)
 
   function recuirsion(inorder) {
       if (!inorder || !inorder.length) return null
